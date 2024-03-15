@@ -1,5 +1,4 @@
-
-import Banner from '../../assets/Banner.png'
+import Banner from "../../assets/Banner.png";
 
 const Header = () => {
   return (
@@ -8,7 +7,7 @@ const Header = () => {
       <div>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
-             <button className="font-bold text-3xl">Recipe Calories</button> 
+            <button className="font-bold text-3xl">Recipe Calories</button>
           </div>
           <div class="navbar-center space-x-3 font-normal text-gray-500">
             <a class="">Home</a>
@@ -32,24 +31,36 @@ const Header = () => {
                 />
               </svg>
             </label>
-            <button className="bg-green-400 p-3 rounded-full"><IoPersonOutline /></button>
-             
+            <button className="bg-green-400 p-3 rounded-full">
+              <IoPersonOutline />
+            </button>
           </div>
         </div>
       </div>
 
       {/* banner */}
 
-      <div className='mt-6 relative'>
-      <img className='w-full' src={Banner} alt="" />
-      <div className='absolute top-0 text-white  w-full h-full flex flex-col items-center justify-center text-center space-y-4 p-4'>
-        <h1 className='font-bold text-5xl'>Discover an exceptional cooking <br />class tailored for you!</h1>
-        <p>Indulge in a culinary journey with our food website, where flavors come alive through tantalizing recipes, expert tips, and <br />mouthwatering inspiration for every palate.</p>
-        <div className='space-x-6'>
-        <button className='bg-green-500 p-5 rounded-full font-bold text-black'>Explore Now</button>
-        <button className='bg-transparent p-5 rounded-full font-bold border border-white'>Our Feedback</button>
+      <div className="mt-6 relative">
+        <img className="w-full" src={Banner} alt="" />
+        <div className="absolute top-0 text-white  w-full h-full flex flex-col items-center justify-center text-center space-y-4 p-4">
+          <h1 className="font-bold text-5xl">
+            Discover an exceptional cooking <br />
+            class tailored for you!
+          </h1>
+          <p>
+            Indulge in a culinary journey with our food website, where flavors
+            come alive through tantalizing recipes, expert tips, and <br />
+            mouthwatering inspiration for every palate.
+          </p>
+          <div className="space-x-6">
+            <button className="bg-green-500 p-5 rounded-full font-bold text-black">
+              Explore Now
+            </button>
+            <button className="bg-transparent p-5 rounded-full font-bold border border-white">
+              Our Feedback
+            </button>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   );

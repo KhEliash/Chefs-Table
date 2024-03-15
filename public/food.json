@@ -1,0 +1,88 @@
+[
+   
+    {
+      "recipe_id": 1,
+      "recipe_name": "Chicken Stir-Fry",
+      "recipe_image": "https://i.im.ge/2024/03/16/RmEzyL.eaters-collective-12eHC6FxPyg-unsplash.jpeg",
+      "short_description": "A delicious and healthy chicken stir-fry with vegetables.",
+      "ingredients": [
+        "550 g chicken breast",
+        "120 ml soy sauce",
+        "200 g basil leaves",
+        "400 g mushrooms" 
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Curry",
+      "recipe_image": "https://i.im.ge/2024/03/16/RmEYzP.lily-banse-YHSwy6uqvk-unsplash-2.jpeg",
+      "short_description": "A flavorful and aromatic vegetable curry with spices.",
+      "ingredients": [
+        "300 g mixed vegetables (carrots, peas, potatoes)",
+        "200 ml coconut milk",
+        "2 tbsp curry powder",
+        "1 onion" 
+      ],
+      "preparing_time": "45 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Pasta Primavera",
+      "recipe_image": "https://i.im.ge/2024/03/16/RmEzyL.eaters-collective-12eHC6FxPyg-unsplash.jpeg",
+      "short_description": "A light and colorful pasta dish loaded with fresh veggies.",
+      "ingredients": [
+        "400 g spaghetti",
+        "2 cups mixed vegetables (bell peppers, zucchini, cherry tomatoes)",
+        "1/4 cup olive oil",
+        "3 cloves garlic" 
+      ],
+      "preparing_time": "25 min",
+      "calories": "280 calories"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Grilled Salmon",
+      "recipe_image": "https://i.im.ge/2024/03/16/RmEnWJ.anna-pelzer-IGfIGP5ONV0-unsplash.jpeg",
+      "short_description": "Juicy grilled salmon fillets with a tangy lemon glaze.",
+      "ingredients": [
+        "4 salmon fillets",
+        "1/4 cup lemon juice",
+        "2 tbsp honey",
+        "2 tbsp soy sauce" 
+      ],
+      "preparing_time": "20 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Mango Avocado Salad",
+      "recipe_image": "https://i.im.ge/2024/03/16/RmxMB6.dan-gold-4-jhDO54BYg-unsplash.jpeg",
+      "short_description": "A refreshing salad combining sweet mangoes and creamy avocado.",
+      "ingredients": [
+        "2 ripe mangoes",
+        "2 ripe avocados",
+        "1/4 cup red onion",
+        "2 tbsp lime juice"  
+      ],
+      "preparing_time": "15 min",
+      "calories": "200 calories"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Quinoa Salad",
+      "recipe_image": "https://i.im.ge/2024/03/16/Rmxr1X.lily-banse-YHSwy6uqvk-unsplash-2.jpeg",
+      "short_description": "A nutritious salad featuring protein-rich quinoa and fresh vegetables.",
+      "ingredients": [
+        "1 cup quinoa",
+        "2 cups water or vegetable broth",
+        "1 cup cherry tomatoes",
+        "1 cucumber" 
+      ],
+      "preparing_time": "35 min",
+      "calories": "300 calories"
+    }
+  
+]
