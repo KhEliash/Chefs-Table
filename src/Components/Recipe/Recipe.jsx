@@ -1,7 +1,8 @@
-const Recipe = ({ recip }) => {
-  console.log(recip);
+const Recipe = ({ recip , handleCart }) => {
+  // console.log(recip);
+  // console.log(handleCart);
   return (
-    <div className="card border border-gray-300 w-full text-left p-4 space-y-3">
+    <div className="card border border-gray-100 shadow-lg w-full text-left p-4 space-y-3">
       <img className="rounded-md" src={recip.recipe_image} alt="image" />
       <h2 className="font-bold text-2xl">{recip.recipe_name}</h2>
       <p className="text-gray-500">{recip.short_description}</p>
@@ -23,7 +24,7 @@ const Recipe = ({ recip }) => {
           </span>{recip.calories}
         </p>
       </div>
-      <button className="bg-green-400 rounded-full py-3 w-40">
+      <button onClick={()=>handleCart(recip)} className="bg-green-400 rounded-full font-bold py-3 w-40">
         Want to Cook
       </button>
     </div>
