@@ -4,16 +4,16 @@ const Header = () => {
   return (
     <div className="container mx-auto">
       {/* nav bar */}
-      <div>
+      <div className="mt-12">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <button className="font-bold text-3xl">Recipe Calories</button>
           </div>
           <div class="navbar-center space-x-3 font-normal text-gray-500">
-            <a class="">Home</a>
-            <a class="">Recipes</a>
-            <a class="">About</a>
-            <a class="">Search</a>
+            <a href="">Home</a>
+            <a href="">Recipes</a>
+            <a href="">About </a>
+            <a href="">Search</a>
           </div>
           <div class="navbar-end space-x-4">
             <label class="input bg-gray-100 rounded-full flex items-center flex-row-reverse gap-2">
@@ -68,5 +68,6 @@ const Header = () => {
 
 export default Header;
 import { IoPersonOutline } from "react-icons/io5";
+import Recipes from './../Recipes/Recipes';
 
 // "react/no-unknown-property": ['error', { ignore: ['css'] }];

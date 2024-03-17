@@ -1,4 +1,4 @@
-const Recipe = ({ recip , handleCart }) => {
+const Recipe = ({ recip, handleCart }) => {
   // console.log(recip);
   // console.log(handleCart);
   return (
@@ -16,15 +16,20 @@ const Recipe = ({ recip , handleCart }) => {
         <p className="flex items-center gap-2">
           <span>
             <CiClock2 />
-          </span>{recip.preparing_time}
+          </span>
+          {recip.preparing_time}
         </p>
         <p className="flex items-center gap-2">
           <span>
             <AiOutlineFire />
-          </span>{recip.calories}
+          </span>
+          {recip.calories}
         </p>
       </div>
-      <button onClick={()=>handleCart(recip)} className="bg-green-400 rounded-full font-bold py-3 w-40">
+      <button
+        onClick={() => handleCart(recip)}
+        className="bg-green-400 rounded-full font-bold py-3 w-40"
+      >
         Want to Cook
       </button>
     </div>
