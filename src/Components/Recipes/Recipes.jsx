@@ -4,10 +4,8 @@ import "./Recipes.css";
 
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import Preparing from "../Preparing/Preparing";
 
 const Recipes = () => {
-  // const Recipes = ()=>{
   const [recipes, setRecipes] = useState([]);
   const [cart, setCart] = useState([]);
   const [pre, setPre] = useState([]);
@@ -24,7 +22,6 @@ const Recipes = () => {
     if (!isExist) {
       setCart([...cart, p]);
     } else {
-      // toast('Already Added');
       toast.error("Already Added", {
         className: "toast",
       });
@@ -35,9 +32,8 @@ const Recipes = () => {
     const delet = cart.filter((item) => item.recipe_id !== id);
 
     setCart(delet);
-
+    // card add for preparing
     const prepa = cart.filter((item) => item.recipe_id == id);
-    // const newPrepa = {...pre,prepa}
 
     setPre([...pre, prepa]);
 
@@ -69,7 +65,7 @@ const Recipes = () => {
           <h1 className="text-3xl font-bold my-5">
             Want to cook: {cart.length}{" "}
           </h1>
-          <div className="grid grid-cols-4 text-xl font-bold">
+          <div className="grid grid-cols-4 text-xl font-bold bg-green-100 py-5">
             <p>Name</p>
             <p>Time</p>
             <p>Calories</p>
@@ -93,18 +89,16 @@ const Recipes = () => {
               </button>
             </div>
           ))}
-
+          {/* currently cooking section */}
           <div className="mt-5">
             <h1 className="text-3xl font-bold">
               Currently Cooking: {pre.length}
             </h1>
-
             <div className="grid grid-cols-3 bg-green-100 p-5 mt-3 font-bold text-xl">
               <p>Name</p>
               <p>Time</p>
               <p>Calories</p>
             </div>
-
             {pre.map((item, idx) => (
               <div
                 key={idx}
@@ -118,7 +112,7 @@ const Recipes = () => {
                 <p>{item[0].calories}</p>
               </div>
             ))}
-            {/* <Preparing pre={pre}></Preparing> */}
+            ;
           </div>
         </div>
       </div>
